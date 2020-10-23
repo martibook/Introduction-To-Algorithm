@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/introduction-to-algorithm.iml" filepath="$PROJECT_DIR$/.idea/modules/introduction-to-algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task1/introduction-to-algorithm.lesson1-task1.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task1/introduction-to-algorithm.lesson1-task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task1/introduction-to-algorithm.lesson1-task1.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task1/introduction-to-algorithm.lesson1-task1.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task1/introduction-to-algorithm.lesson1-task1.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task1/introduction-to-algorithm.lesson1-task1.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/introduction-to-algorithm.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/introduction-to-algorithm.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/introduction-to-algorithm.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/introduction-to-algorithm.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/introduction-to-algorithm.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/introduction-to-algorithm.util.test.iml" />
+    </modules>
+  </component>
+</project>
