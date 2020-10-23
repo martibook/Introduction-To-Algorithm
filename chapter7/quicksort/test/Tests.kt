@@ -1,7 +1,4 @@
-import chapter7.quicksort.src.basicPartition
-import chapter7.quicksort.src.basicQuicksort
-import chapter7.quicksort.src.enhancedPartition
-import chapter7.quicksort.src.enhancedQuicksort
+import chapter7.quicksort.src.*
 import org.junit.Assert
 import org.junit.Test
 
@@ -64,6 +61,17 @@ class Test {
         for (i in 1 until A.size) {
             if (A[i] < A[i-1]) {
                 Assert.assertTrue("A[i] should be > A[i-1", false)
+            }
+        }
+    }
+
+    @Test
+    fun testEnhancedFuzzyQuicksort() {
+        val F = arrayOf(Pair(4,6), Pair(1,2), Pair(3,5), Pair(6,7), Pair(6,9))
+        enhancedFuzzyQuicksort(F, 0, F.size-1)
+        for (i in 1 until F.size) {
+            if (F[i-1].first > F[i].second) {
+                Assert.assertTrue("A[i-1] should be <= A[i]", false)
             }
         }
     }

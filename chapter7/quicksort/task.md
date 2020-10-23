@@ -7,9 +7,9 @@ BasicPartition(A, p, r)
 
 EnhancedPartition(A, p, r)
 
-    return i+1, k+1
+    return i, k
     in which case
-    A[p..i] < A[i+1..k] < A[k+1..r]
+    A[p..i-1] < A[i..k] < A[k+1..r]
     
     
 BasicQuicksort(A, p, r)
@@ -22,3 +22,16 @@ EnhancedQuicksort(A, p, r)
 
     sort A in place
     calling EnhancedPartition
+    
+    
+EnhancedFuzzyPartition(A, p, r)
+
+    return i, k
+    in which case
+    A[p..i-1] < A[i..k] < A[k+1..r]
+    
+    
+EnhancedFuzzyQuicksort(A, p, r)
+
+    sort A in place
+    calling EnhancedFuzzyPartition 
