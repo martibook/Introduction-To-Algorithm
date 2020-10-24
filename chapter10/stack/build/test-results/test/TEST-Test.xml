@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-10-24T03:28:31" hostname="mccallie" time="0.024">
+  <properties/>
+  <testcase name="testQueue" classname="Test" time="0.023"/>
+  <testcase name="testStack" classname="Test" time="0.001"/>
+  <system-out><![CDATA[1 2 3
+3
+
+13
+1 2 3
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
