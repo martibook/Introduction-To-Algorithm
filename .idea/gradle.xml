@@ -11,8 +11,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/chapter10/stack" />
             <option value="$PROJECT_DIR$/chapter7/quicksort" />
-            <option value="$PROJECT_DIR$/quicksort/quicksort" />
+            <option value="$PROJECT_DIR$/chapter7/quicksort/build/classes/java/main/chapter7/quicksort" />
+            <option value="$PROJECT_DIR$/chapter7/quicksort/out/production/classes/chapter7/quicksort" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
